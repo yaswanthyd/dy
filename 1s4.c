@@ -1,13 +1,13 @@
 #include <stdio.h>
-
+#include<conio.h>
 int main()
 {
-char c;
+char i;
     printf("Enter a character: ");
-    scanf("%c",&c);
-    if( (c>='a' && c<='z') || (c>='A' && c<='Z'))
-        printf("%c is an alphabet.",c);
+    scanf("%c",&i);
+    if( (i>='a' && i<='z') || (i>='A' && i<='Z'))
+        printf("%c is an alphabet.",i);
     else
-        printf("%c is not an alphabet.",c);
-    return 0;
+        printf("%c is not an alphabet.",i);
+    getch();
 }
